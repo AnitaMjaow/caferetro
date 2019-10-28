@@ -1,0 +1,118 @@
+
+p {
+  margin-top: 2%;
+line-height: 0.7px;  
+}
+
+.nav {
+    background-color: rgba(25, 0, 9, 0.8);
+    color: white;
+    position: fixed;
+
+}
+
+.nav-item > a {
+    font-family: spirax;
+    font-size: 30px;
+    text-decoration: none;
+    color: white;
+}
+
+#hot {
+    background-image: url("../img/hot.jpg");
+    background-size: cover;
+    height: 100vh;
+}
+
+#juicy {
+    background-image: url("../img/juicy.jpg");
+    background-size: cover;
+    height: 100vh;
+}
+
+#cosy {
+    background-image: url("../img/cosy.jpg");
+    background-size: cover;
+    height: 100vh;
+}
+
+
+h1 {
+    text-align: center;
+    font-family: spirax;
+    color: rgba(149, 1, 2);
+    font-weight: bold;
+    padding-top: 15%;
+    font-size: 65px;
+
+}
+
+.col-md-6 {
+    background-color: rgba(143, 1, 2, 0.8);
+    color: white;
+    padding: 15px;
+    text-align: center;
+    font-family: "Poiret One";
+    margin: 1%;
+}
+
+
+.menu,
+col {
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white;
+    list-style: none;
+    font-family: "Poiret One";
+    margin: 0 20% 0 20%;
+}
+
+
+.square li {
+    padding: 0 5%;
+}
+
+
+@media (max-width:456px) {
+
+    .col-md-6 {
+        margin: 0 10%;
+
+    }
+
+    .menu,
+    col {
+        background-color: rgba(0, 0, 0, 0.9);
+        color: white;
+        list-style: none;
+        font-family: "Poiret One";
+        margin: 6% 6% 0 6%;
+    }
+
+
+    .square li {
+        padding: 0 3%;
+    }
+
+    .row > .hide {
+        display: none;
+    }
+
+    h1 {
+        font-size: 50px;
+        padding-top: 45%;
+
+    }
+    
+    .nav-item > a {
+    font-size: 20px;
+
+}
+    
+
+}
+
+@media (max-width:768px) {
+    h1 {
+        padding-top: 40%;
+    }
+}
